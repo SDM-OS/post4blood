@@ -24,6 +24,7 @@
                <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
   Emergency Request
 </button>
+
                </center>
         </div>
 
@@ -31,6 +32,51 @@
     </div>
 
 
+<div class="modal fade" id="DonModal" tabindex="-1" role="dialog" aria-labelledby="DonModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="DonModalLabel">Your'e Just Awesome!</h4>
+      </div>
+      <div class="modal-body">
+      <!-- <form action="/donate/" method="post"> 
+        <input type="text" class="form-control" id="inputEmail" required placeholder="Place and Area"> <br/>
+        <input type="phone" class="form-control" id="inputEmail" required placeholder="Contact Number"><br/>
+        <select class="form-control" id="select">
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                      </select>
+      <button type="button" type="submit" class="btn btn-primary">Submit</button>
+      
+      </form>-->
+      <form action="/donate" method="post">
+            <input type="text" class="form-control" id="inputEmail" name="place" required placeholder="Place and Area"> <br/>
+        <input type="phone" class="form-control" id="inputEmail" name="contact" required placeholder="Contact Number"><br/>
+        <select class="form-control" name="blood" id="select">
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                      </select>
+            <div><input type="submit" class="btn btn-primary" value="Register"></div>
+          </form>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- <button type="button" type="submit" class="btn btn-primary">Submit</button> -->
+      </div>
+      <!-- </form> -->
+    </div>
+  </div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
