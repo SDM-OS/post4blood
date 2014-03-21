@@ -1,4 +1,5 @@
-gae-python-boilerplate
-======================
+Emergency Blood Request app built with python webapp2 framework & Plivo API's
+=============================================================================
 
-Boilerplate code for Google App Engine with Python.
+
+
